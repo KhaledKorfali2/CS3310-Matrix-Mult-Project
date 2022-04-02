@@ -88,8 +88,8 @@ private:
 };
 
 //constant variables
-const int ARRAYSIZE = 256;
-const int NUMBEROFITERATIONS = 25;
+const int ARRAYSIZE = 8190;
+const int NUMBEROFITERATIONS = 1;
 const int MIN_VALUE = -9;
 const int MAX_VALUE = 9;
 
@@ -103,9 +103,9 @@ const int MAX_VALUE = 9;
 //void naiveHelper(int matrixA[ARRAYSIZE][ARRAYSIZE], int matrixB[ARRAYSIZE][ARRAYSIZE], int resultMatrix[ARRAYSIZE][ARRAYSIZE], int row);
 //void StrassenMatrixMult(int matrixA[ARRAYSIZE][ARRAYSIZE], int matrixB[ARRAYSIZE][ARRAYSIZE], int resultMatrix[ARRAYSIZE][ARRAYSIZE]);
 //void displayMatrix(int matrix[ARRAYSIZE][ARRAYSIZE]);
+//array versions of Matrix functions********************* Delete me ****************************************
 
 
-vector<vector<int>> classicMatrixMult(vector<vector<int>>& matrixA, vector<vector<int>>& matrixB, vector<vector<int>>& resultMatrix, int size);
 //vector version of Matrix functions
 int generateRandomNumb();
 void displayMatrix(vector<vector<int>>& matrix);
@@ -116,6 +116,7 @@ vector<vector<int>> naiveDivideAndConquer(vector<vector<int>>& matrixA, vector<v
 vector<vector<int>> naiveHelper(vector<vector<int>>& matrixA, vector<vector<int>>& matrixB, vector<vector<int>>& resultMatrix, int size, int baseCase);
 void matrixAddition(vector<vector<int>>& matrixA, vector<vector<int>>& matrixB, vector<vector<int>>& resultMatrix, int size);
 void matrixSubtraction(vector<vector<int>>& matrixA, vector<vector<int>>& matrixB, vector<vector<int>>& resultMatrix, int size);
+vector<vector<int>> classicMatrixMult(vector<vector<int>>& matrixA, vector<vector<int>>& matrixB, vector<vector<int>>& resultMatrix, int size);
 vector<vector<int>> classicMatrixMult(vector<vector<int>>& matrixA, vector<vector<int>>& matrixB, vector<vector<int>>& resultMatrix);
 vector<vector<int>> StrassenMatrixMult(vector<vector<int>>& matrixA, vector<vector<int>>& matrixB, vector<vector<int>>& resultMatrix, int baseCase);
 vector<vector<int>> StrassenHelper(vector<vector<int>>& matrixA, vector<vector<int>>& matrixB, vector<vector<int>>& resultMatrix, int size, int baseCase);
