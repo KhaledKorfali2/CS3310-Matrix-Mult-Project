@@ -88,7 +88,7 @@ private:
 };
 
 //constant variables
-const int ARRAYSIZE = 8190;
+const int ARRAYSIZE = 4;
 const int NUMBEROFITERATIONS = 1;
 const int MIN_VALUE = -9;
 const int MAX_VALUE = 9;
@@ -103,7 +103,7 @@ const int MAX_VALUE = 9;
 //void naiveHelper(int matrixA[ARRAYSIZE][ARRAYSIZE], int matrixB[ARRAYSIZE][ARRAYSIZE], int resultMatrix[ARRAYSIZE][ARRAYSIZE], int row);
 //void StrassenMatrixMult(int matrixA[ARRAYSIZE][ARRAYSIZE], int matrixB[ARRAYSIZE][ARRAYSIZE], int resultMatrix[ARRAYSIZE][ARRAYSIZE]);
 //void displayMatrix(int matrix[ARRAYSIZE][ARRAYSIZE]);
-//array versions of Matrix functions********************* Delete me ****************************************
+
 
 
 //vector version of Matrix functions
@@ -209,6 +209,21 @@ int main()
         vMatrixA = generateMatrix(PWRTWOARRSIZE);
         vMatrixB = generateMatrix(PWRTWOARRSIZE);
 
+        ////initializes values to sanity check values
+        //vMatrixA = { 
+        //    {2, 0, -1, 6}, 
+        //    {3, 7, 8, 0},
+        //    {-5, 1, 6, -2},
+        //    {8, 0, 2, 7}
+        //};
+        //vMatrixB = {
+        //    {0, 1, 6, 3},
+        //    {-2, 8, 7, 1},
+        //    {2, 0, -1, 0},
+        //    {9, 1, 6, -2}
+        //};
+
+
         //Diffrent implementations of matrix mult
         classicMatrixMult(vMatrixA, vMatrixB, vResultMatrixCMM);
         naiveDivideAndConquer(vMatrixA, vMatrixB, vResultMatrixNDAC, baseCase);
@@ -230,7 +245,7 @@ int main()
         //    cout << endl << "-----------Matrix Strassen-----------" << endl;
         //    displayMatrix(vResultMatrixSMM);
         //}
-        // 
+         
         //DEBUG: Tests each base case in order to find which produces best runtimes
         /*while (baseCase < PWRTWOARRSIZE)
         {
