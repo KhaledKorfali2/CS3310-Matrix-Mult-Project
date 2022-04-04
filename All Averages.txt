@@ -1,0 +1,153 @@
+Microseconds
+Program run until it crashes
+
+Size:2
+totalTimeClassic: 9325332.000000
+lineCountClassic: 1323926
+averageClassic: 7.043696
+totalTimeNaive: 13280375.000000
+lineCountNaive: 1323926
+averageNaive: 10.031055
+totalTimeStrassen: 13333447.000000
+lineCountStrassen: 1323926
+averageStrassen: 10.071142
+
+size:4
+totalTimeClassic: 46052044.000000
+lineCountClassic: 3001841
+averageClassic: 15.341267
+totalTimeNaive: 573829184.000000
+lineCountNaive: 3001840
+averageNaive: 191.159149
+totalTimeStrassen: 699418176.000000
+lineCountStrassen: 3001840
+averageStrassen: 232.996490
+
+size:8
+totalTimeClassic: 6681415.000000
+lineCountClassic: 119846
+averageClassic: 55.750004
+totalTimeNaive: 159243888.000000
+lineCountNaive: 119930
+averageNaive: 1327.807007
+totalTimeStrassen: 224357424.000000
+lineCountStrassen: 119854
+averageStrassen: 1871.922729
+
+size:16
+totalTimeClassic: 27890122.000000
+lineCountClassic: 78655
+averageClassic: 354.588043
+totalTimeNaive: 247162400.000000
+lineCountNaive: 78584
+averageNaive: 3145.199951
+totalTimeStrassen: 263405200.000000
+lineCountStrassen: 78578
+averageStrassen: 3352.149414
+
+
+size: 32
+totalTimeClassic: 544577792.000000
+lineCountClassic: 210278
+averageClassic: 2589.799072
+totalTimeNaive: 1666222208.000000
+lineCountNaive: 210475
+averageNaive: 7916.485352
+totalTimeStrassen: 1739469952.000000
+lineCountStrassen: 210440
+averageStrassen: 8265.871094
+
+size: 64
+totalTimeClassic: 866862912.000000
+lineCountClassic: 45270
+averageClassic: 19148.728516
+totalTimeNaive: 1422645888.000000
+lineCountNaive: 45969
+averageNaive: 30947.941406
+totalTimeStrassen: 1348102912.000000
+lineCountStrassen: 45770
+averageStrassen: 29453.853516
+
+size: 128
+totalTimeClassic: 3262586368.000000
+lineCountClassic: 20972
+averageClassic: 155568.687500
+totalTimeNaive: 3888807424.000000
+lineCountNaive: 21018
+averageNaive: 185022.718750
+totalTimeStrassen: 3659860480.000000
+lineCountStrassen: 20968
+averageStrassen: 174545.046875
+
+size: 256
+totalTimeClassic: 4066112256.000000
+lineCountClassic: 3310
+averageClassic: 1228432.750000
+totalTimeNaive: 4338349568.000000
+lineCountNaive: 3310
+averageNaive: 1310679.625000
+totalTimeStrassen: 3527631104.000000
+lineCountStrassen: 3310
+averageStrassen: 1065749.625000
+
+size: 512
+totalTimeClassic: 23360118784.000000
+lineCountClassic: 2295
+averageClassic: 10178701.000000
+totalTimeNaive: 25317212160.000000
+lineCountNaive: 2295
+averageNaive: 11031465.000000
+totalTimeStrassen: 18280425472.000000
+lineCountStrassen: 2295
+averageStrassen: 7965327.000000
+
+size: 1024
+totalTimeClassic: 6234967552.000000
+lineCountClassic: 60
+averageClassic: 103916128.000000
+totalTimeNaive: 6166616064.000000
+lineCountNaive: 60
+averageNaive: 102776936.000000
+totalTimeStrassen: 3740490752.000000
+lineCountStrassen: 60
+averageStrassen: 62341512.000000
+
+
+size: 2048
+totalTimeClassic: 29101654016.000000
+lineCountClassic: 42
+averageClassic: 692896512.000000
+totalTimeNaive: 27203708928.000000
+lineCountNaive: 42
+averageNaive: 647707328.000000
+totalTimeStrassen: 21002979328.000000
+lineCountStrassen: 42
+averageStrassen: 500070944.000000
+
+size: 4096
+totalTimeClassic: 16504560803.000000
+lineCountClassic: 3
+averageClassic: 5501520267.67
+totalTimeNaive: 15511512860.000000
+lineCountNaive: 3
+averageNaive: 5170504286.67
+totalTimeStrassen: 14616847528.000000
+lineCountStrassen: 3
+averageStrassen: 4872282509.33
+
+
+Size:8190
+classicMatrixMult: 46340415781 (12 hours)
+Bad_alloc error thrown
+Bad_alloc error thrown
+
+
+Size:1000
+classicMatrixMult: 78538321
+naiveDivideAndConquer: 2582293639
+StrassenMatrixMult: 1202651299
+
+
+
+
+
